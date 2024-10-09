@@ -1,0 +1,31 @@
+{
+  "name": "@lu7766lu7766/hundi-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "hundi-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "npx tsc -w --outDir dist",
+    "b-help": "hundi-cli b -h",
+    "help": "hundi-cli -h"
+  },
+  "author": "Jac",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "commander": "^12.1.0",
+    "dayjs": "^1.11.13",
+    "ssh2": "^1.16.0",
+    "ssh2-sftp-client": "^11.0.0",
+    "ts-node": "^10.9.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/ssh2": "^1.15.1",
+    "@types/ssh2-sftp-client": "^9.0.4",
+    "typescript": "^5.6.2"
+  }
+}
