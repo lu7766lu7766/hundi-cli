@@ -1,6 +1,6 @@
 {
   "name": "@lu7766lu7766/hundi-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,10 @@
     "dev": "npx tsc -w --outDir dist",
     "b-help": "hundi-cli b -h",
     "help": "hundi-cli -h"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lu7766lu7766/hundi-cli.git"
   },
   "author": "Jac",
   "license": "ISC",
