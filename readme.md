@@ -16,7 +16,7 @@ npx hundi-cli bundle \
 -c <TG_CHAT_ID>
 ```
 
-Params
+Params description
 
 > HOST required, ssh HOST  
 > USER_NANE required, ssh USERNAME  
